@@ -12,39 +12,31 @@
 
 O Blind Helper utiliza as seguintes bibliotecas:
 
-* `flet`: Usada para poder usar o soket e também para o fron-end.
+* `flet`: Usada para poder usar o socket e também para o fron-end.
 
 ## Funções do Código
 
-* **`web`:** .
-  * **`web.add()`:** .
-  * **`web.remove()`:** .
-  * **`web.update()`:** .
-  * **`web.dialog`:** .
-  * **`web.pubsub.send_all`:** .
-  * **`web.pubsub.subscribe`:** .
+* **`web`: *Esse paremetro serve para pegar todas funcionalidades do framework Flet*.
+  * **`web.add()`: *Função para adicionar* .
+  * **`web.remove()`: *Função para remover* .
+  * **`web.update()`: *Função para editar um elemento* .
+  * **`web.dialog`: *Chamar o popup* .
+  * **`web.pubsub.send_all`: *Envia mensagem no tunel de comunicação do socket* .
+  * **`web.pubsub.subscribe`: *Posta mensagem no tunel de comunicação do socket* .
     
-* **`ft.app()`:** .
+* **`ft.app()`: *Server para estar colocando todos os elemntos na página* .
   
-* **`ft.AlertDialog`:** .
+* **`ft.AlertDialog`: *Popup do Flet* .
   
-* **`ft.ElevatedButton`:** .
+* **`ft.ElevatedButton`: *Botão do Flet* .
   
-* **`ft.Text`:** .
+* **`ft.Text`: *Texto do Flet* .
   
-* **`ft.TextField`:** .
+* **`ft.TextField`: *Campo de Escrita do Flet* .
   
-* **`ft.Column()`:** .
+* **`ft.Column()`: *Organizar os elementos em coluna* .
   
-* **`ft.Row`:** .
-
-## Configuração
-
-* **``:** .
-
-## Executando o Código
-
-1. **** .
+* **`ft.Row`: *Organizar os elementos em linha* .
 
 ## Licença
 
